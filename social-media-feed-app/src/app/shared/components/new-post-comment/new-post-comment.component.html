@@ -1,0 +1,15 @@
+<form class="comment-form" [formGroup]="postCommentForm" >
+  <mat-form-field class="comment-form-field">
+    <textarea matInput placeholder="{{textType}}" formControlName="text" ></textarea>
+    <mat-error *ngIf="control['text'].invalid">{{getTextErrorMessage()}}</mat-error>
+  </mat-form-field>
+  <button
+    mat-raised-button
+    type="submit"
+    color="primary"
+    (click)="onText.emit({text: postCommentForm.getRawValue().text, type})"
+    [disabled]="postCommentForm.invalid"
+  >
+    {{textType}}
+  </button>
+</form>

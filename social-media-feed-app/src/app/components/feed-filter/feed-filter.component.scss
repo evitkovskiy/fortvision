@@ -1,0 +1,19 @@
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.search-field {
+  width: 48%;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
+
+mat-icon {
+  font-size: 25px;
+  margin-right: 5px;
+}

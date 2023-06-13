@@ -1,0 +1,30 @@
+.comment {
+  margin-top: 16px;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  height: 50%;
+
+  mat-card-header {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-between;
+  }
+
+  mat-card-subtitle {
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+  }
+
+  mat-card-content {
+    margin-top: 8px;
+  }
+
+  p {
+    margin: 0;
+    font-size: 16px;
+    color: #444;
+  }
+}

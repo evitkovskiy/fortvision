@@ -1,0 +1,33 @@
+<div class="feed-container">
+  <section class="feed-filter">
+    <smf-feed-filter (filter)="filter.emit($event)"></smf-feed-filter>
+  </section>
+  <section class="feed-new-post">
+    <button
+      mat-raised-button color="primary"
+      (click)="showAddPostComponent = !showAddPostComponent"
+    >
+      Add Post
+    </button>
+    <smf-new-post-comment *ngIf="showAddPostComponent"
+      [type]="'post'"
+      [textType]="'Add post'"
+      (onText)="onText.emit($event); showAddPostComponent = false"
+    ></smf-new-post-comment>
+  </section>
+  <section class="feed-posts">
+    <div class="no-posts" *ngIf="!posts?.length">
+      <h1>Currently, there are no posts available.</h1>
+    </div>
+    <social-media-feed-post *ngFor="let post of posts; trackBy: trackItem"
+      [post]="post"
+      [currentUser]="currentUser"
+      (onLike)="onLike.emit($event)"
+      (onText)="onText.emit($event)"
+      (onDeletePost)="onDeletePost.emit($event)"
+      (onDeleteComment)="onDeleteComment.emit($event)"
+      (onSharePost)="onSharePost.emit($event)"
+    >
+    </social-media-feed-post>
+  </section>
+</div>

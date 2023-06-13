@@ -1,0 +1,21 @@
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: 10px 0 10px 0;
+  background-color: #424242;
+  padding: 10px;
+}
+
+.comment-form-field {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 5px;
+}

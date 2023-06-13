@@ -1,0 +1,30 @@
+.post {
+  width: 500px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.post_header {
+  justify-content: space-between;
+}
+
+.mdc-card__actions {
+  justify-content: space-between;
+}
+
+mat-card-footer {
+  border-top: 1px solid #fff;
+}
+
+.no-comments {
+  color: #fff;
+  font-weight: bold;
+}
+
+.clear_btn {
+  margin-left: auto;
+}
+
+.share {
+  color: #a55ec3;
+}

@@ -1,0 +1,23 @@
+.feed-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.feed-filter, .feed-new-post {
+  width: 100%;
+}
+
+.no-posts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    margin-top: 30px;
+    font-size: 20px;
+    color: gray;
+  }
+}
