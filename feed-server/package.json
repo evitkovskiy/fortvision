@@ -1,0 +1,18 @@
+{
+  "name": "feed-server",
+  "version": "1.0.0",
+  "description": "feed-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "feed",
+    "server"
+  ],
+  "author": "yauhen",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "posts": [
+    {
+      "content": "Hellow, World!",
+      "author": "yauhen",
+      "timestamp": "1686659153633",
+      "id": 1686659153641
+    },
+    {
+      "id": 1,
+      "author": "David",
+      "content": "Excepteur sint occaecat cupidatat non proident.",
+      "timestamp": "2021-12-03T08:56:34.000Z",
+      "likes": {
+        "count": 2,
+        "usersLiked": [
+          "John",
+          "yauhen"
+        ]
+      },
+      "comments": [
+        {
+          "content": "Hi!",
+          "commenter": "yauhen",
+          "timestamp": "1686658603574"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "author": "Sarah",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "timestamp": "2021-12-03T09:22:15.000Z",
+      "likes": {
+        "count": 0,
+        "usersLiked": []
+      },
+      "comments": [
+        {
+          "content": "Nice post!",
+          "commenter": "John",
+          "timestamp": "1686658762154"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "author": "Michael",
+      "content": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer euismod augue eleifend, aliquam elit quis, dapibus ante.",
+      "timestamp": "2021-12-03T10:05:47.000Z",
+      "likes": {
+        "count": 1,
+        "usersLiked": [
+          "yauhen"
+        ]
+      },
+      "comments": []
+    },
+    {
+      "id": 4,
+      "author": "Alex",
+      "content": "Etiam dapibus erat enim, vitae hendrerit nunc pulvinar eu.",
+      "timestamp": "2021-12-03T12:36:23.000Z",
+      "likes": {
+        "count": 0,
+        "usersLiked": []
+      },
+      "comments": [
+        {
+          "content": "Nice one!",
+          "commenter": "John",
+          "timestamp": "1686659234623"
+        },
+        {
+          "content": "Great post, Alex!",
+          "commenter": "Sarah",
+          "timestamp": "1686659240334"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "author": "Kate",
+      "content": "Donec ex urna, rhoncus eget gravida vitae, gravida sit amet erat.",
+      "timestamp": "2021-12-03T13:19:10.000Z",
+      "likes": {
+        "count": 1,
+        "usersLiked": [
+          "yauhen"
+        ]
+      },
+      "comments": [
+        {
+          "content": "Good one, Kate!",
+          "commenter": "John",
+          "timestamp": "1686659359134"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "author": "Mark",
+      "content": "Cras quis elit euismod, posuere ipsum vitae, malesuada enim. ",
+      "timestamp": "2021-12-03T15:46:57.000Z",
+      "likes": {
+        "count": 3,
+        "usersLiked": [
+          "John",
+          "yauhen",
+          "Kate"
+        ]
+      },
+      "comments": [
+        {
+          "content": "Awesome post!",
+          "commenter": "Sarah",
+          "timestamp": "1686659946578"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "author": "Peter",
+      "content": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+      "timestamp": "2021-12-03T18:01:34.000Z",
+      "likes": {
+        "count": 2,
+        "usersLiked": [
+          "Sarah",
+          "yauhen"
+        ]
+      },
+      "comments": [
+        {
+          "content": "Great one, Peter!",
+          "commenter": "John",
+          "timestamp": "1686660691342"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "author": "Mary",
+      "content": "Mauris justo nulla, placerat vel maximus vitae, efficitur et urna.",
+      "timestamp": "2021-12-04T06:27:15.000Z",
+      "likes": {
+        "count": 0,
+        "usersLiked": []
+      },
+      "comments": [
+        {
+          "content": "Awesome post, Mary!",
+          "commenter": "Sarah",
+          "timestamp": "1686666437157"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "author": "Andrew",
+      "content": "Sed non nibh leo. Nullam at mi ut tellus sollicitudin adipiscing.",
+      "timestamp": "2021-12-04T07:14:35.000Z",
+      "likes": {
+        "count": 1,
+        "usersLiked": [
+          "yauhen"
+        ]
+      },
+      "comments": [
+        {
+          "content": "Great work, Andrew!",
+          "commenter": "John",
+          "timestamp": "1686668074353"
+        },
+        {
+          "content": "Nice post!",
+          "commenter": "Mary",
+          "timestamp": "1686668131447"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "author": "Julia",
+      "content": "Curabitur tincidunt, nunc eu laoreet tincidunt, sapien mauris fermentum nisl, quis euismod sem sem quis erat.",
+      "timestamp": "2021-12-04T08:57:22.000Z",
+      "likes": {
+        "count": 0,
+        "usersLiked": []
+      },
+      "comments": [
+        {
+          "content": "Nice job, Julia!",
+          "commenter": "Sarah",
+          "timestamp": "1686669447222"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "author": "Tom",
+      "content": "Phasellus sit amet est sed urna lacinia condimentum quis at massa.",
+      "timestamp": "2021-12-04T10:16:09.000Z",
+      "likes": {
+        "count": 2,
+        "usersLiked": [
+          "John",
+          "yauhen"
+        ]
+      },
+      "comments": [
+        {
+          "content": "Awesome post, Tom!",
+          "commenter": "Mary",
+          "timestamp": "1686670569122"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "author": "Jane",
+      "content": "Vivamus aliquam, sem in lacinia sodales, neque neque aliquet mi, vel rhoncus ante odio vitae magna.",
+      "timestamp": "2021-12-04T12:35:41.000Z",
+      "likes": {
+        "count": 1,
+        "usersLiked": [
+          "Sarah"
+        ]
+      },
+      "comments": [
+        {
+          "content": "Good post, Jane!",
+          "commenter": "John",
+          "timestamp": "1686671741575"
+        },
+        {
+          "content": "Keep it up!",
+          "commenter": "yauhen",
+          "timestamp": "1686671859355"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "author": "Jack",
+      "content": "Suspendisse nec nisl facilisis, ultricies magna non, scelerisque elit.",
+      "timestamp": "2021-12-04T14:49:17.000Z",
+      "likes": {
+        "count": 0,
+        "usersLiked": []
+      },
+      "comments": [
+        {
+          "content": "Great one, Jack!",
+          "commenter": "Sarah",
+          "timestamp": "1686672559176"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "author": "Eva",
+      "content": "Aliquam id erat nulla. Nam et pharetra tortor.",
+      "timestamp": "2021-12-04T16:11:39.000Z",
+      "likes": {
+        "count": 3,
+        "usersLiked": [
+          "John",
+          "yauhen",
+          "Kate"
+        ]
+      },
+      "comments": [
+        {
+          "content": "Great work, Eva!",
+          "commenter": "Sarah",
+          "timestamp": "1686673099361"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "author": "Kevin",
+      "content": "Ut ultricies est ac ex rutrum feugiat. Nunc eget eleifend mauris, non dictum leo.",
+      "timestamp": "2021-12-04T18:52:09.000Z",
+      "likes": {
+        "count": 2,
+        "usersLiked": [
+          "John",
+          "yauhen"
+        ]
+      },
+      "comments": [
+        {
+          "content": "Awesome post, Kevin!",
+          "commenter": "Mary",
+          "timestamp": "1686673929212"
+        }
+      ]
+    }
+  ]
+}
